@@ -99,4 +99,32 @@ $ cc -o hello hello.c
 
 The option `-o hello` tells the program cc which is compiling your code to name the output file (the executable) `hello` instead of the default name, which is `a.out`. Execute your program by telling the shell to run `hello` instead of `a.out`. 
 
+## Upload your files to the GitHub repository
+
+Go to your repository through the web interface in your browser. You should see a big green button that says "<> Code" towards the top of the page. 
+
+To the left of the big green button, there should be a grey "Add file" button. Click on this button and select "Upload files".
+
+Upload your `hello.c` file, either by dragging and dropping or by using the "choose your files" dialog. Do not upload your executable (the `hello` file with no extension). 
+
+Repeat this process with your `lab1stuff.txt` file. 
+
+Click the green "Commit changes" button. 
+
+## Check that your file is uploaded correctly
+
+Go back to your repository's main page. 
+
+You should now see your `hello.c` file listed along with `README.md` and `lab1sample.txt`.
+
+The `lab1sample.txt` file should have been updated, but not replaced. 
+
+Click on the `hello.c` file. You should see the code that you wrote. 
+
+Go back to the main page. 
+
+Click on the `lab1stuff.txt` file. You should see the text that you added to the file instead of the original file. 
+
+You can use this procedure to check that files are successfully uploaded to the repository whenever you turn in your assignments. 
+
 That's it!! You're done!
